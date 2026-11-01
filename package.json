@@ -1,0 +1,17 @@
+{
+  "name": "desafio-spacecom-trainee",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "solve": "tsx scripts/solve.ts",
+    "solve:all": "tsx scripts/solve-all.ts",
+    "validate": "tsx scripts/validate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
